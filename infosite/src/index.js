@@ -38,24 +38,49 @@ import logo from './logo.svg';
 //   )
 // }
 
-function WhyLoveReact(){
-  return(
-    <div>
-      <header>
-        <nav>
-          <img src={logo} className="App-logo" alt="logo" width="10%"/>
-        </nav>
-      </header>
+function Header(){
+  return (
+    <header>
+      <nav className='nav'>
+        <img src={logo} className="App-logo" alt="logo"/>
+        <ul className='nav-items'>
+          <li>Pricing</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+    </header>
+  );
+}
+
+function MainContent(){
+  return (
+    <div className='content'>
       <h1>Why I love react</h1>
-      <ol>
+      <ol className='content-list'>
         <li>I need a job bruh</li>
         <li>daddy zucks company made it</li>
         <li>much faster and better than angular</li>
         <li>need it for my portfolio website</li>
       </ol>
-      <footer>
-        <p> &copy; 2023 Patel development. All rights reserved</p>
-      </footer>
+    </div>
+  )
+}
+
+function Footer(){
+  return (
+    <footer className='footer-page'>
+      <p> &copy; 2023 Patel development. All rights reserved</p>
+    </footer>
+  )
+}
+
+function WhyLoveReact(){
+  return(
+    <div>
+      <Header/>
+      <MainContent/>
+      <Footer/>
     </div>
   );
 }
