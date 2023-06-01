@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Header from "./Header.js"
+import Footer from "./Footer.js"
+import MainContent from "./MainContent.js"
 import './index.css';
-import logo from './logo.svg';
 
 // const page = (
 //   <div>
@@ -38,42 +40,6 @@ import logo from './logo.svg';
 //   )
 // }
 
-function Header(){
-  return (
-    <header>
-      <nav className='nav'>
-        <img src={logo} className="App-logo" alt="logo"/>
-        <ul className='nav-items'>
-          <li><a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley'>Pricing</a></li>
-          <li><a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley'>About</a></li>
-          <li><a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley'>Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-  );
-}
-
-function MainContent(){
-  return (
-    <div className='content'>
-      <h1>Why I love react</h1>
-      <ol className='content-list'>
-        <li>I need a job bruh</li>
-        <li>daddy zucks company made it</li>
-        <li>much faster and better than angular</li>
-        <li>need it for my portfolio website</li>
-      </ol>
-    </div>
-  )
-}
-
-function Footer(){
-  return (
-    <footer className='footer-page'>
-      <p> &copy; 2023 Patel development. All rights reserved</p>
-    </footer>
-  )
-}
 
 function WhyLoveReact(){
   return(
