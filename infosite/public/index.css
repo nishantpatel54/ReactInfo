@@ -1,0 +1,129 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  margin-bottom: 0;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+}
+
+.nav-items > li {
+  padding: 1em;
+}
+
+.App-logo {
+  width: 50px;
+}
+
+.footer-page{
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: blue;
+  background-color: lightblue;
+}
+
+.content{
+  border: 5px solid;
+  margin: auto;
+  margin-top: 20px;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+
+.content-list{
+  text-align: center;
+  list-style-position: inside;
+} */
+
+
+.App-logo {
+  width: 50px;
+  margin-right: 7px;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin : 0;
+  font-family: Inter, sans-serif;
+  background-color: #282D35;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  background-color: #21222A;
+  padding: 30px 25px;
+  height: 90px;
+}
+
+.nav--logo_text, .nav--title{
+ margin: 0;
+}
+
+.nav--logo_text{
+  margin-right: auto;
+  color: #61DAFB;
+  font-weight: 700;
+}
+
+.nav--title{
+  color:#DEEBF8;
+  font-weight: 500;
+}
+
+.maincontent--main{
+  padding: 55px 27px;
+  color:white;
+  background-image: url("./reactlogo-main.png");
+  background-repeat: no-repeat;
+  background-size: 198px 372px;
+  background-position-x: right;
+  background-position-y: center ;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+
+.maincontent--title{
+  margin: 0;
+  font-size: 39px;
+  letter-spacing: -0.05em;
+}
+
+.maincontent--facts{
+  margin-top: 46px;
+}
+
+.maincontent--facts > li{
+  line-height: 19px;
+  padding-block: 10px;
+}
+
+.maincontent--facts > li::marker{
+  color:#61DAFB;
+  font-size: 1.5rem;
+} 

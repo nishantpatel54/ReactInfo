@@ -1,9 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Header from "./Header.js"
-import Footer from "./Footer.js"
-import MainContent from "./MainContent.js"
-import './index.css';
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+// import Header from "./Header.js"
+// import Footer from "./Footer.js"
+// import MainContent from "./MainContent.js"
+// import './index.css';
 
 // const page = (
 //   <div>
@@ -41,18 +41,23 @@ import './index.css';
 // }
 
 
-function WhyLoveReact(){
-  return(
-    <div>
-      <Header/>
-      <MainContent/>
-      <Footer/>
-    </div>
-  );
-}
+// function WhyLoveReact(){
+//   return(
+//     <div>
+//       <Header/>
+//       <MainContent/>
+//       <Footer/>
+//     </div>
+//   );
+// }
 
-ReactDOM.render(<WhyLoveReact/>, document.getElementById("list"));
+// ReactDOM.render(<WhyLoveReact/>, document.getElementById("list"));
 
 // ReactDOM.render(<Componented/>, document.getElementById("root"));
 
+import App from "./App"
+import React from "react"
+import ReactDOM from "react-dom"
+
+ReactDOM.render(<App/>, document.getElementById("root"));
 
